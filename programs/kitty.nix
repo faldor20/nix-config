@@ -6,7 +6,7 @@ shell=fish;
 editor=nvim
 Color scheme {{{
 
-background_opacity 0.5
+background_opacity 0.75
 
 background            #2f2f2f
 foreground            #afc2c2

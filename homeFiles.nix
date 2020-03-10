@@ -1,7 +1,8 @@
 # configuration for software using ni
 {pkgs,...}:
  {
-  imports= [
+   imports= [
+     ./programs/email.nix
     ./programs/neovim.nix
     ./programs/kitty.nix
   #  (import "${home-manager}/nixos")

@@ -39,7 +39,9 @@
     fsharp
     polkit
     nixfmt
+    zathura
 
+    msmtp
 
     # dotnet
     dotnetv3

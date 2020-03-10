@@ -15,6 +15,14 @@
   networking.interfaces.enp7s0.useDHCP = true;
   networking.interfaces.wlp8s0.useDHCP = true;
   networking.networkmanager.enable=true;
+  
+  hardware.bluetooth.enable = true;
+  services.blueman.enable = true;
+hardware.pulseaudio = {
+    extraModules = [ pkgs.pulseaudio-modules-bt ];
+    package = pkgs.pulseaudioFull;
+  };
+
 
   networking.hostName = "nixos"; # Define your hostname.
   #networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.

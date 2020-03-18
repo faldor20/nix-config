@@ -40,10 +40,12 @@
     polkit
     nixfmt
     zathura
-
+    
     msmtp
-
-    # dotnet
+    rustc
+    cargo
+    rustup
+    dotnet-sdk
     dotnetv3
   ];
 	boot.extraModulePackages = [config.boot.kernelPackages.exfat-nofuse];

@@ -9,6 +9,9 @@
     ./programs/musicPlayer.nix
     ./programs/fish.nix
     ./programs/i3.nix
+    ./programs/sxhkd.nix
+    ./programs/polybar.nix
+    ./programs/mpd.nix
  #   ./configuration.nix
   ];
 
